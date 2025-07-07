@@ -2,7 +2,7 @@ import { useLocalSearchParams } from "expo-router";
 import React from "react";
 import { Text, View } from "react-native";
 
-const ProductDetails = () => {
+const MovieDetails = () => {
   const { movieId } = useLocalSearchParams();
 
   return (
@@ -12,4 +12,4 @@ const ProductDetails = () => {
   );
 };
 
-export default ProductDetails;
+export default MovieDetails;
