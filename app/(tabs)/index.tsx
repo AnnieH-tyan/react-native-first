@@ -6,7 +6,7 @@ export default function Index() {
   return (
     <View className="flex-1 items-center justify-center bg-background">
       <Text>Edit app/index.tsx to edit this screen.</Text>
-      <Link href="/login">Login</Link>
+      <Link href="/profile">Login</Link>
       <Link href="/movies/sun">Some movie</Link>
     </View>
   );
