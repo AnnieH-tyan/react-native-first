@@ -1,10 +1,17 @@
-import React from "react";
-import { Text, View } from "react-native";
+import React, { useState } from "react";
+import { ScrollView, TextInput, View } from "react-native";
 
 export default function Search() {
+  const [value, setValue] = useState("");
+
   return (
     <View>
-      <Text>S</Text>
+      <TextInput
+        placeholder="Search"
+        value={value}
+        onChangeText={(text) => setValue(text)}
+      />
+      <ScrollView></ScrollView>
     </View>
   );
 }
